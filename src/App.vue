@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import {vOnClickOutside} from "@vueuse/components";
+import {vOnClickOutside as vOnClickOutside} from "@vueuse/components";
 
 const handleClickOutside = () => { console.log('out') };
 </script>
